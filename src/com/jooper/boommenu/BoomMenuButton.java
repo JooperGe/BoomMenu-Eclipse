@@ -35,7 +35,7 @@ import com.jooper.boommenu.Types.StateType;
  * Created by Weiping on 2016/3/19.
  */
 
-@SuppressWarnings("JavaDoc")
+@SuppressWarnings("javadoc")
 public class BoomMenuButton extends FrameLayout implements
 		CircleButton.OnCircleButtonClickListener,
 		HamButton.OnHamButtonClickListener {
@@ -130,6 +130,7 @@ public class BoomMenuButton extends FrameLayout implements
 		this(context, null);
 	}
 
+	@SuppressWarnings("unused")
 	public BoomMenuButton(Context context, AttributeSet attrs) {
 		super(context, attrs);
 
@@ -347,7 +348,6 @@ public class BoomMenuButton extends FrameLayout implements
 	/**
 	 * Place all dots to the boom menu botton.
 	 */
-	@SuppressWarnings("SuspiciousNameCombination")
 	private void placeDots() {
 		frameLayout.removeAllViews();
 		int width = frameLayout.getWidth();
